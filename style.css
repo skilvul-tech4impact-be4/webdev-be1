@@ -1,9 +1,9 @@
 /* nav */
-.login-btn a {
+.login-register a {
     color: #5c5c5c;
 }
 
-.login-btn a:hover {
+.login-register a:hover {
     color: #2c2c2c;    
 }
 
