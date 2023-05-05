@@ -7,10 +7,12 @@ export const generateKelas = async () => {
     let cards = ""
     kelas.forEach(e => {
     cards += `
-        <div class="card" style="width: 18rem;">
-            <img src="${e.gambar}" class="card-img-top">
+        <div class="card" style="width: 20rem;">
+            <img src="${e.gambar}" class="card-img-top mt-2" style="width: auto; height: 12em;">
             <div class="card-body">
                 <h5 class="card-title">${e.judul}</h5>
+                <p class="card-text-secondary">${e.kategori}</p>
+                <p class="card-text-secondary">${e.materi.length} Materi</p>
                 <p class="card-text">${e.deskripsi}</p>
                 <a href="#" class="btn btn-primary">Lihat Kelas</a>
             </div>
