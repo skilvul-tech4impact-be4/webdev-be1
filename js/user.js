@@ -29,7 +29,7 @@ if (formRegist) {
                     body: JSON.stringify(userData)
                 });
                 const dataUser = await response.json()
-                console.log(dataUser);
+                // console.log(dataUser);
                 
                 window.location.href = "../login/index.html";   
             }
@@ -48,7 +48,7 @@ if (formLogin) {
         const users = await response.json();
       
         const user = users.find(user => user.username === username && user.password === password);
-        console.log(user);
+        // console.log(user);
         if (user) {
             localStorage.setItem("username", username)
             window.location.href = "../index.html";
