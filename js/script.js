@@ -11,11 +11,11 @@ const dataLogin = localStorage.getItem("username")
             const btnGabung = document.getElementById("btnGabung")
             const btnHero = document.getElementById("btnHero")
             
-            nav.style.display = "none";
-            navLogin.style.display = "block";
-            dashboard.style.display = "block";
-            btnGabung.style.display = "none";
-            btnHero.style.display = "block";
+            nav.style.display = "none"
+            navLogin.style.display = "block"
+            dashboard.style.display = "block"
+            btnGabung.style.display = "none"
+            btnHero.style.display = "block"
         }
 
 const btnLogout = document.getElementById("logout")
