@@ -11,7 +11,7 @@ if (formRegist) {
         const username = document.getElementById("username").value
         const password = document.getElementById("password").value
         
-        if (fname && userEmail && username && password && check) {
+        if (fname && userEmail && username && password) {
             class User {
                 constructor(name, username, password, email) {
                     this.name = name

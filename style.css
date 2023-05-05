@@ -30,6 +30,11 @@
     color: #ebedec;
 }
 
+.class-container {
+    overflow: auto;
+    max-height: 30em;
+}
+
 .menu-footer ul {
     list-style: none;
 }
