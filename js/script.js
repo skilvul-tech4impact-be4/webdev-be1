@@ -1,2 +1,2 @@
-// import { generateKelas } from './kelas.js'
-// console.log(generateKelas());
+import { generateKelas } from "./kelas.js";
+generateKelas()

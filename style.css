@@ -29,3 +29,7 @@
 .hero-btn:hover {
     color: #ebedec;
 }
+
+.menu-footer ul {
+    list-style: none;
+}
