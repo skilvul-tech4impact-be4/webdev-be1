@@ -33,8 +33,10 @@
 					</ul>
 				</div>
 				<div class="login-register" style="display: block" id="login-register">
-					<a href="#">Daftar</a> |
-					<button type="button" class="btn btn-outline-dark" id="login">Login</button>
+					<a href="./regist/index.html">Daftar</a> |
+					<a href="./login/index.html">
+                        <button type="button" class="btn btn-outline-dark" id="login">Login</button>
+                    </a>
 				</div>
 				<div class="isLogin-session" style="display: none" id="isLogin">
 					<button class="btn btn-outline-dark" type="button" id="logout">Logout</button> |
@@ -47,7 +49,7 @@
 		<div class="hero-banner container-fluid">
 			<div class="position-absolute top-50 start-50 translate-middle text-center">
 				<p class="hero-text lh-base text-lg-center"> Gabung Kelas Gratis Dan Raih Pengalaman Belajarmu Bersama Kami </p>
-				<a href="#">
+				<a href="./regist/index.html">
 					<button type="button" id="btn-gabung" class="btn btn-outline-light btn-lg mt-3">Ayo Bergabung Sekarang</button>
 				</a>
 			</div>
@@ -69,22 +71,6 @@
 							<a href="#" class="btn btn-primary">Go somewhere</a>
 						</div>
 					</div>
-					<div class="card col m-2" style="width: 18rem">
-						<img src="..." class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card col m-2" style="width: 18rem">
-						<img src="..." class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
 				</div>
 			</div>
 			<!--  -->
@@ -94,32 +80,7 @@
 				<div class="container-text p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">
 					<h4 class="text">Kelas Yang Tersedia</h4>
 				</div>
-				<div class="row">
-					<div class="card col m-2" style="width: 18rem">
-						<img src="..." class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card col m-2" style="width: 18rem">
-						<img src="..." class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-					<div class="card col m-2" style="width: 18rem">
-						<img src="..." class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-primary">Go somewhere</a>
-						</div>
-					</div>
-				</div>
+				<div id="containerClass" class="container row gap-5"></div>
 			</div>
 			<!--  -->
 
@@ -139,10 +100,24 @@
 			<!--  -->
 		</div>
 		<!-- footer sec -->
+        <hr>
+        <div class="footer text-center">
+			<div class="container">
+				<div class="logo">
+                    <img src="./gallery/logo-removebg-preview.png" width="150" />
+                </div>
+				<div class="menu-footer text-center">
+					<ul>
+						<li><a href="">Beranda</a></li>
+						<li><a href="">Program</a></li>
+						<li><a href="">Tentang Kami</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 		<!--  -->
-
 		<!--Script-->
-		<!-- <script src=""></script> -->
+		<script src="./js/script.js" type="module"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 	</body>
 </html>
