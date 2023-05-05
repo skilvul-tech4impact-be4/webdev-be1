@@ -1,4 +1,5 @@
 const classContainer = document.getElementById("containerClass")
+const programContainer = document.getElementById("programContainer")
 
 export const generateKelas = async () => {
 	const response = await fetch("https://64527828a2860c9ed40d3b49.mockapi.io/kelas");
@@ -6,7 +7,7 @@ export const generateKelas = async () => {
     
     let cards = ""
     kelas.forEach(e => {
-    cards += `
+    return cards += `
         <div class="card" style="width: 20rem;">
             <img src="${e.gambar}" class="card-img-top mt-2" style="width: auto; height: 12em;">
             <div class="card-body">
@@ -19,5 +20,10 @@ export const generateKelas = async () => {
         </div>
     `
     })
-    return classContainer.innerHTML = cards
+    if (classContainer) {
+        classContainer.innerHTML = cards
+    }
+    if (programContainer) {
+        programContainer.innerHTML = cards
+    }
 };

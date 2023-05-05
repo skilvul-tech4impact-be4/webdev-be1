@@ -30,6 +30,9 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#">Tentang Kami</a>
 						</li>
+						<li class="nav-item" id="dashboardMenu" style="display: none;">
+							<a class="nav-link" href="#">Dashboard</a>
+						</li>
 					</ul>
 				</div>
 				<div class="login-register" style="display: block" id="login-register">
@@ -49,8 +52,11 @@
 		<div class="hero-banner container-fluid">
 			<div class="position-absolute top-50 start-50 translate-middle text-center">
 				<p class="hero-text lh-base text-lg-center"> Gabung Kelas Gratis Dan Raih Pengalaman Belajarmu Bersama Kami </p>
-				<a href="./regist/index.html">
+				<a href="./regist/index.html" style="display: block;" id="btnGabung">
 					<button type="button" id="btn-gabung" class="btn btn-outline-light btn-lg mt-3">Ayo Bergabung Sekarang</button>
+				</a>
+				<a href="./programKelas/index.html" style="display: none;" id="btnHero">
+					<button type="button" id="btn-hero" class="btn btn-outline-light btn-lg mt-3">Lihat Program</button>
 				</a>
 			</div>
 		</div>
@@ -80,7 +86,7 @@
 				<div class="container-text p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">
 					<h4 class="text">Kelas Yang Tersedia</h4>
 				</div>
-				<div id="containerClass" class="container row gap-5"></div>
+				<div id="containerClass" class="container row justify-content-md-center gap-5 class-container"></div>
 			</div>
 			<!--  -->
 
