@@ -3,7 +3,7 @@ generateKelas()
 
 
 const dataLogin = localStorage.getItem("username")
-        console.log(dataLogin);
+        // console.log(dataLogin);
         if (dataLogin) {
             const nav = document.getElementById("login-register")           
             const navLogin = document.getElementById("isLogin")
