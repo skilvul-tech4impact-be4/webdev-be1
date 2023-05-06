@@ -15,7 +15,7 @@ export const generateKelas = async () => {
                 <p class="card-text-secondary">${e.kategori}</p>
                 <p class="card-text-secondary">${e.materi.length} Materi</p>
                 <p class="card-text">${e.deskripsi}</p>
-                <a href="#" class="btn btn-primary">Lihat Kelas</a>
+                <a href="../kelasPage/index.html" class="btn btn-primary">Lihat Kelas</a>
             </div>
         </div>
     `
