@@ -1,87 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Remedi</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="../gallery/logo-removebg-preview.png" width="100" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Kelas</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Tentang Kami</a>
-          </li>
-        </ul>
-      </div>
-      <div class="login-register" style="display: block" id="login-register">
-        <a href="./regist/index.html">Daftar</a> |
-        <a href="./login/index.html">
-                      <button type="button" class="btn btn-outline-dark" id="login">Login</button>
-                  </a>
-      </div>
-      <div class="isLogin-session" style="display: none" id="isLogin">
-        <button class="btn btn-outline-dark" type="button" id="logout">Logout</button> |
-        <a href=""><img src="../gallery/profile.png" width="50" /></a>
-      </div>
-    </div>
-  </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+		<title>Remedi</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../index.html"><img src="../gallery/logo-removebg-preview.png" width="100" /></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="../index.html">Beranda</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="../programKelas/index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program </a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="../programKelas/index.html">Kelas</a></li>
+							</ul>
+						</li>
+						<li class="nav-item" id="dashboardMenu" style="display: none">
+							<a class="nav-link" href="../dashboard/index.html">Dashboard</a>
+						</li>
+					</ul>
+				</div>
+				<div class="login-register" style="display: block" id="login-register">
+					<a href="./regist/index.html">Daftar</a> |
+					<a href="./login/index.html">
+						<button type="button" class="btn btn-outline-dark" id="login">Login</button>
+					</a>
+				</div>
+				<div class="isLogin-session" style="display: none" id="isLogin">
+					<a href=""><img src="../gallery/profile.png" width="50" /></a>
+				</div>
+			</div>
+		</nav>
 
-  <div class="container border border-2 mt-5 px-3 py-5">
-masuk materi
-  </div>
-  <div class="container">
-    <div class="container mt-5 mb-5 d-flex justify-content-between">
-      <div class="container">
-      <section class="container">
-        <section class="mt-5">
-          <div class="container border border-2 px-3 py-5">
-            <h2>title</h2>
-            <h6>paragrap</h6>
-          </div>
-        </section>
-        <section class="mt-5">
-          <div class="container border border-2 px-3 py-5">
-            <h2>title 2</h2>
-            <h6>paragrap agak panjang</h6>
-          </div>
-        </section>
-      </section>
-      </div>
-      <div class="container">
-        <div class="card position-relative" style="width: 20rem;">
-          <img src="../gallery/profile.png" class="d-block mx-auto card-img-top mt-2 w-50">
-          <div class="card-body">
-              <h5 class="nama">Nama</h5>
-              <p class="email">Email</p>
-          </div>
-      </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer text-center">
-    <div class="container mb-5 mt-5">
-      <a href="#">
-        <button type="button" class="btn btn-outline-dark" id="download">Download Materi</button>
-    </a>
-    </div>
-  </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+		<div class="container border border-2 mt-5 px-3 py-5"> masuk materi </div>
+		<div class="container">
+			<div class="container mt-5 mb-5 d-flex justify-content-between">
+				<div class="container">
+					<section class="container">
+						<section class="mt-5">
+							<div class="container border border-2 px-3 py-5">
+								<h2>title</h2>
+								<h6>paragrap</h6>
+							</div>
+						</section>
+						<section class="mt-5">
+							<div class="container border border-2 px-3 py-5">
+								<h2>title 2</h2>
+								<h6>paragrap agak panjang</h6>
+							</div>
+						</section>
+					</section>
+				</div>
+				<div class="container">
+					<div class="card position-relative" style="width: 20rem">
+						<img src="../gallery/profile.png" class="d-block mx-auto card-img-top mt-2 w-50" />
+						<div class="card-body">
+							<h5 class="nama">Nama</h5>
+							<p class="email">Email</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer text-center">
+			<div class="container mb-5 mt-5">
+				<a href="#">
+					<button type="button" class="btn btn-outline-dark" id="download">Download Materi</button>
+				</a>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	</body>
 </html>
